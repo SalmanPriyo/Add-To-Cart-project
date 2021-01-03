@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    background: skyblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#submit_btn {
+    background: skyblue ;
+    color: black;
+    font-family: 'Passion One', cursive;
+    font-size: medium;
+    font-weight: 700;
+
+}
+
+#table {
+    background: linen;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.success .error {
+    color : white;
+    padding: 5px;
+    margin: 5px, 0px, 15px, 0px;
+}
+
+.success {
+    color:white;
+    background-color: limegreen;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: large;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.error {
+    color: white;
+    background-color: orangered;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: large;
+    text-align: center;
+    border-radius: 4px;
+}

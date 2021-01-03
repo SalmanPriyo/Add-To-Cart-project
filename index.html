@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+        integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
+
+    
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Add to Cart</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Shopping Cart</h2>
+        <form id="cart_form">
+            <div>
+                <label for="title">Product Name</label>
+                <input type="text" id="name"
+                class="u-full-width" placeholder="type product name here">
+            </div>
+
+            <div>
+                <label for="code">Product Code</label>
+                <input type="text" id="code"
+                class="u-full-width" placeholder="type product name here">
+            </div>
+
+            <div>
+                <label for="color">Color</label>
+                <input type="text" id="color"
+                class="u-full-width" placeholder="type product color here">
+            </div>
+
+            <div>
+                <label for="price">Base Price</label>
+                <input type="number" id="price"
+                class="u-full-width" placeholder="type product price here">
+            </div>
+
+            
+            <div>
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity"
+                class="u-full-width" placeholder="type product quantity here">
+            </div>
+
+            <div>
+                <input type="submit" id="submit_btn" value="Add to cart" class="u-full-width">
+            </div>
+
+
+        </form>
+
+        <table id= 'table' class="u-full-width">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Code</th>
+                    <th>Color</th>
+                    <th>Base Price</th>
+                    <th>Quantity</th>
+                    <th>Total (BDT)</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+
+            <tbody id="shopping_cart">
+
+            </tbody>
+            
+        </table>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
